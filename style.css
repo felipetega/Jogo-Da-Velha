@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+    background-image: linear-gradient(to left,#344550,#9bd7db);
+    /*NO SELECT*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogoDaVelha{
+    height: 60vh;
+    width: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 400px;
+}
+
+.jogoDaVelha div{
+    display: inline-block;
+    background-color: darkslateblue;
+    width: 19vh;
+    height: 19vh;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17vh;
+    color: darkslateblue;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 2vh;
+    padding: 2vh 4vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+    text-align: center;
+}
+  
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+    font-size: 4vh;
+    background-image: linear-gradient(to left,#4d3450,#d49bdb);
+}
